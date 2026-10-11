@@ -704,4 +704,7 @@ newWorld();
 var last=performance.now();
 (function loop(now){requestAnimationFrame(loop);var dt=Math.min(0.05,(now-last)/1000||0.016);last=now;if(locked)update(dt);renderer.render(scene,camera);})(last);
 })();
-</script></body></html>
+</script>
+</body>
+
+</html>
